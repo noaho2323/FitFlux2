@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Membership — FitFlux</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Index.html">FitFlux</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="Index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="membership.html">Membership</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="boxing.html">Boxing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="get-trained.html">Get Trained</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tour</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex ms-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <header class="hero-section">
+      <div class="container">
+        <h1>Always A <span class="highlight-unique">Distinct</span> Workout Experience</h1>
+        <h2>Plans that flex with your life — expert coaching, classes, and community support.</h2>
+      </div>
+    </header>
+
+    <main class="container membership-main">
+      <section class="membership-benefits">
+        <h2>What Members Get</h2>
+        <div class="benefits-grid">
+          <div class="benefit-card">💪<h4>Full Gym Access</h4><p>Open daily with modern equipment and free weights.</p></div>
+          <div class="benefit-card">🧑‍🏫<h4>Expert Coaching</h4><p>Certified trainers and personalized programming.</p></div>
+          <div class="benefit-card">📅<h4>Unlimited Classes</h4><p>Group classes including Boxing, HIIT, Yoga, and Spin.</p></div>
+          <div class="benefit-card">☕<h4>Member Perks</h4><p>Discounts at the smoothie bar and priority booking.</p></div>
+        </div>
+      </section>
+
+      <section class="plans-grid" aria-label="Membership plans">
+        <article class="plan-card">
+          <h3>Starter</h3>
+          <p class="plan-price">$29<span>/mo</span></p>
+          <ul>
+            <li>Gym equipment access</li>
+            <li>Locker rooms & showers</li>
+            <li>Member app</li>
+          </ul>
+          <a class="btn btn-dark cta-button" href="#signup">Sign Up</a>
+        </article>
+
+        <article class="plan-card featured">
+          <h3>Pro</h3>
+          <p class="plan-price">$59<span>/mo</span></p>
+          <ul>
+            <li>All Starter benefits</li>
+            <li>Unlimited classes</li>
+            <li>4 PT sessions / month</li>
+          </ul>
+          <a class="btn btn-dark cta-button" href="#signup">Sign Up</a>
+        </article>
+
+        <article class="plan-card">
+          <h3>VIP</h3>
+          <p class="plan-price">$99<span>/mo</span></p>
+          <ul>
+            <li>All Pro benefits</li>
+            <li>Unlimited personal training</li>
+            <li>Nutrition consult</li>
+          </ul>
+          <a class="btn btn-dark cta-button" href="#signup">Sign Up</a>
+        </article>
+      </section>
+
+      <section class="membership-faq">
+        <h2>Membership FAQ</h2>
+        <div class="faq-item"><h4>Is there a trial?</h4><p>Yes — a one-week free trial for new members. No credit card required.</p></div>
+        <div class="faq-item"><h4>Can I cancel anytime?</h4><p>Yes. Monthly plans can be cancelled with 7 days notice.</p></div>
+        <div class="faq-item"><h4>Do you offer family rates?</h4><p>We have discounts for family and student memberships — contact us for details.</p></div>
+      </section>
+
+      <section id="signup" class="membership-signup">
+        <h2>Join FitFlux</h2>
+        <form class="signup-form" action="#" method="post">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Full name" required>
+            <input type="email" name="email" placeholder="Email address" required>
+          </div>
+          <div class="form-row">
+            <select name="plan" required>
+              <option value="">Choose a plan</option>
+              <option value="starter">Starter — $29</option>
+              <option value="pro">Pro — $59</option>
+              <option value="vip">VIP — $99</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <button type="submit" class="btn btn-dark cta-button">Start Free Trial</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- Reuse contact footer from Index -->
+    <footer class="contact-footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>FitFlux Gym</h3>
+          <p>Transform your fitness journey with us. Experience the power of dedication, community, and expert guidance.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Visit Us</h3>
+          <p>702 King St E</p>
+          <p>Hamilton, ON L8M 1A3</p>
+          <p>Phone: (905) 555-FLEX</p>
+          <p>Email: info@fitflux.com</p>
+        </div>
+        <div class="footer-section">
+          <h3>Hours</h3>
+          <p>Monday - Friday: 5am - 11pm</p>
+          <p>Saturday - Sunday: 7am - 9pm</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 FitFlux Gym. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
